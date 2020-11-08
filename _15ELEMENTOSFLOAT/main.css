@@ -1,0 +1,16 @@
+div{
+    width: 400px;
+    background: rosybrown;
+    overflow:auto; /*PARA QUE PERSIVA A LOS ELEMENTOS FLOAT*/
+
+}
+
+
+img{
+    width:40%;
+    float: left;
+
+    
+}
+
+

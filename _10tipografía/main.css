@@ -1,0 +1,17 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+h1{
+    font-size: 100px;
+}
+
+p{
+    font-size: 25px;
+    font-style: unset;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+
+

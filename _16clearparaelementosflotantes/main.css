@@ -1,0 +1,32 @@
+.contenedor{
+
+    width: 400px;
+    min-height: 200px;
+    background: lightblue;
+    margin: 0 auto 0 auto;
+
+    /*mejor solución*/
+    overflow: hidden;
+}
+
+
+.imagen{
+    width: 200px;
+    height: 100px;
+    background: lightsalmon;
+    float: left;
+}
+
+
+.contenido{
+    width: 200px;
+    height: 400px;
+    background: lime;
+    float: right;
+}
+
+/*.clear{
+    clear: both;
+}
+
+*/

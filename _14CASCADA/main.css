@@ -1,0 +1,26 @@
+/*Tipo*/
+h3{
+    font-size: 40px;
+}
+
+/*Clase*/
+.rojo{
+    color: red;
+}
+
+/*Selectores de id*/
+
+#cabecera{
+    position: fixed;
+    background-color: gray;
+}
+
+/*Compuestos*/
+
+h5#indice{
+    color: blue;
+}
+
+p.parrafo {
+    color: chartreuse;
+}

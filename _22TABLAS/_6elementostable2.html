@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos table</title>
+    <link rel="stylesheet" href="main.CSS">
+</head>
+<body>
+    
+    <table>
+        <caption>Lista de clientes</caption> <!--Proporciona un título para la tabla-->
+        <thead> <!--Para los encabezados-->
+
+            <tr>
+                <th scope="col" colspan="3" id="datos">
+                    Datos Personales
+                </th>
+            </tr>
+            <tr>
+                <th scope="col" header="datos">Nombres</th>
+                <th scope="col" header="datos">Apellidos</th>
+                <th scope="col" header="datos">Email</th>
+            </tr>
+        </thead>
+        <tbody><!--Para agrupar el cuerpo de nuestra tabla-->
+            <tr><!--Filas-->
+                <td>Julio Cés</td> <!--Table data-->
+                <td>Bernal Bolaños</td>
+                <td>jcbb1995@hotmail.com</td>
+            </tr> 
+            <tr>
+                <td>Messi</td>
+                <td>Lionel</td>
+                <td>liomessi@hotmail.com</td>
+            </tr>
+            <tr>
+                <td>Goku</td>
+                <td>SonGokua</td>
+                <td>fdhksjfhl@fdhkf.com</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row">Total</th>
+                <td></td>
+                <td>3</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+</body>
+</html>
+

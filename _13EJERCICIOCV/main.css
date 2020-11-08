@@ -1,0 +1,36 @@
+div.contenedor{
+    width: 700px;
+    min-height: 200px;
+    margin: 0px auto 0px auto;
+    background: khaki;
+    
+}
+
+
+h1,h2,p,form{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+img{
+    width: 25%;
+    float: right;
+    margin-right: 80px; 
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+
+form label,input:not([type=radio]){
+    display: block;
+}
+
+
+label{
+    margin-top: 10px;
+}
+
+
+footer{
+    margin-top: 10px;
+}

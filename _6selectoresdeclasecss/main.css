@@ -1,0 +1,20 @@
+
+/*Para declarar una clase se inicia con un "." y nombre de la clase*/
+.rojo{
+    color: red;
+}
+
+/*Sólo los li que vengan de ul con la clase blue tomarán ese color*/
+ul.blue li {
+    color: blue;
+}
+
+.yellow{
+    color: chartreuse;
+}
+
+
+h1,h2{
+    color: darkgoldenrod;
+}
+
